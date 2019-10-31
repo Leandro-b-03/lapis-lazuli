@@ -38,7 +38,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "faraday_middleware", "~> 0.13"
   spec.add_dependency "faraday_json", "~> 0.1"
   spec.add_dependency "multi_xml", "~> 0.6"
-  spec.add_dependency "teelogger", "~> 0.5"
+  spec.add_dependency "teelogger", "~> 0.5.2", github: 'leandro-b-03/teelogger'
   spec.add_dependency "minitest", "~> 5.11"
   spec.add_dependency "thor", "~> 0.20" # Used in the cucumber project generator
   spec.add_dependency "facets", "~> 3.1" # Used in the cucumber project generator
